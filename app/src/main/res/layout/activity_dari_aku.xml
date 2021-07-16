@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dari_aku"
+    android:background="#ffcccc">
+
+    <TextView
+        android:id="@+id/akujdl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="WELCOME"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/image1"
+
+        android:layout_width="187dp"
+        android:layout_height="188dp"
+        android:layout_below="@+id/akujdl"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="-1dp"
+        android:src="@drawable/image" />
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="15dp"
+
+        android:text="                 Haii.... nama saya Hanik Riyadhotus Sholihah. Saya lahir di Ponorogo Jawa Timur tanggal 25 Mei 2001. Sekarang saya berusia 20 tahun dan merupakan anak e 2 dadi 2 bersaudara."
+        android:layout_below="@+id/image1"/>
+    <TextView
+        android:id="@+id/p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="15dp"
+        android:text="                 Selain aktif berkuliah di program studi sistem informasi UPN Veteran Yogyakarta, saya juga mengikuti ukm serta kegiatan volunteer yang ada di sekitar. Hali itu akan menambah softskill yang berguna dimasa mendatang."
+        android:layout_below="@+id/p1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_kembali"
+        android:text="KEMBALI"
+        android:layout_marginTop="370dp"
+        android:background="#ffcccc"
+        />
+
+
+</RelativeLayout>
